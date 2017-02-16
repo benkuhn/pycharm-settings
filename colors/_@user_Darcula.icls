@@ -1,0 +1,18 @@
+<scheme name="_@user_Darcula" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2017-02-10T16:45:06</property>
+    <property name="ide">PyCharmCore</property>
+    <property name="ideVersion">2016.3.2.0.0</property>
+    <property name="modified">2017-02-11T20:42:31</property>
+    <property name="originalScheme">Darcula</property>
+  </metaInfo>
+  <option name="EDITOR_FONT_SIZE" value="12" />
+  <option name="EDITOR_FONT_NAME" value="Menlo" />
+  <attributes>
+    <option name="PY.STRING.U">
+      <value>
+        <option name="FOREGROUND" value="a5c261" />
+      </value>
+    </option>
+  </attributes>
+</scheme>
