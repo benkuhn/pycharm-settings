@@ -1,0 +1,14 @@
+<toolSet name="remit-srv">
+  <tool name="mypy src" description="Run mypy on the whole directory" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$PyInterpreterDirectory$/mypy" />
+      <option name="PARAMETERS" value="src" />
+      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+    </exec>
+    <filter>
+      <option name="NAME" value="Type error" />
+      <option name="DESCRIPTION" />
+      <option name="REGEXP" value="$FILE_PATH$:$LINE$:.*" />
+    </filter>
+  </tool>
+</toolSet>
