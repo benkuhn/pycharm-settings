@@ -120,9 +120,6 @@
   </action>
   <action id="FileChooser.NewFolder" />
   <action id="FileChooser.TogglePathShowing" />
-  <action id="FillParagraph">
-    <keyboard-shortcut first-keystroke="alt q" />
-  </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
@@ -171,4 +168,7 @@
   </action>
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
+  <action id="com.andrewbrookins.idea.wrap.WrapParagraphAction">
+    <keyboard-shortcut first-keystroke="alt q" />
+  </action>
 </keymap>
