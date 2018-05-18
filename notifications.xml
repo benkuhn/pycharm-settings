@@ -1,0 +1,7 @@
+<application>
+  <component name="NotificationConfiguration">
+    <notification groupId=".ignore plugin" displayType="NONE" />
+    <notification groupId=".ignore plugin update information" displayType="NONE" />
+    <notification groupId="IDE Usage Statistics" displayType="NONE" shouldLog="false" />
+  </component>
+</application>
