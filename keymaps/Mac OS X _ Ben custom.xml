@@ -135,6 +135,10 @@
     <keyboard-shortcut first-keystroke="shift ctrl l" />
     <keyboard-shortcut first-keystroke="ctrl r" />
   </action>
+  <action id="FindWordAtCaret">
+    <keyboard-shortcut first-keystroke="meta f3" />
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="meta alt right" />
     <mouse-shortcut keystroke="button5" />
@@ -162,6 +166,10 @@
   <action id="ResizeToolWindowUp" />
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="ctrl g" />
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
   </action>
   <action id="SmartTypeCompletion" />
   <action id="SwitchApply">
