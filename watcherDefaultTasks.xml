@@ -19,7 +19,7 @@
         </array>
       </option>
       <option name="outputFromStdout" value="true" />
-      <option name="program" value="$USER_HOME$/bin/absolutify" />
+      <option name="program" value="$USER_HOME$/wave/money-srv/bin/absolutify" />
       <option name="runOnExternalChanges" value="false" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="false" />

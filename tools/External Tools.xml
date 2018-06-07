@@ -1,13 +1,13 @@
 <toolSet name="External Tools">
   <tool name="dmypy" description="Check mypy daemon" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="$USER_HOME$/bin/absolutify" />
+      <option name="COMMAND" value="$ProjectFileDir$/bin/absolutify" />
       <option name="PARAMETERS" value="$PyInterpreterDirectory$/dmypy check unittests src" />
       <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
     </exec>
     <filter>
-      <option name="NAME" value="No name" />
-      <option name="DESCRIPTION" />
+      <option name="NAME" value="" />
+      <option name="DESCRIPTION" value="" />
       <option name="REGEXP" value="$FILE_PATH$:$LINE$:" />
     </filter>
   </tool>
