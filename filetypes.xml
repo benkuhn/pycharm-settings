@@ -4,8 +4,10 @@
     <extensionMap>
       <mapping pattern="gitignore_global" type="Git file" />
       <mapping pattern="Procfile" type="PLAIN_TEXT" />
+      <mapping pattern=".directory-exists" type="PLAIN_TEXT" />
       <mapping pattern="signups" type="PLAIN_TEXT" />
       <mapping ext="cnf" type="PLAIN_TEXT" />
+      <mapping ext="conf" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
