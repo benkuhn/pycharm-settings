@@ -56,7 +56,7 @@
       <option name="arguments" value="$FilePath$" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" />
-      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="exitCodeBehavior" value="ALWAYS" />
       <option name="fileExtension" value="py" />
       <option name="immediateSync" value="false" />
       <option name="name" value="black" />
@@ -69,7 +69,7 @@
       <option name="runOnExternalChanges" value="true" />
       <option name="scopeName" value="All Places" />
       <option name="trackOnlyRoot" value="false" />
-      <option name="workingDir" value="" />
+      <option name="workingDir" value="$ContentRoot$" />
       <envs />
     </TaskOptions>
   </component>
