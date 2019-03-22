@@ -1,38 +1,21 @@
 <toolSet name="External Tools">
-  <tool name="pylint" description="Run pylint on the source file" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+  <tool name="dmypy" description="Check mypy daemon" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="$PyInterpreterDirectory$/pylint" />
-      <option name="PARAMETERS" value="--msg-template=&quot;{path}:{line}:{column}:{C}: ({symbol}) {msg}&quot; $FilePath$" />
+      <option name="COMMAND" value="$ProjectFileDir$/bin/absolutify" />
+      <option name="PARAMETERS" value="$PyInterpreterDirectory$/dmypy check unittests src" />
       <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
     </exec>
     <filter>
-      <option name="NAME" value="Output" />
+      <option name="NAME" value="No name" />
       <option name="DESCRIPTION" />
-      <option name="REGEXP" value="$FILE_PATH$:$LINE$:$COLUMN$:.*" />
+      <option name="REGEXP" value="$FILE_PATH$:$LINE$:" />
     </filter>
   </tool>
-  <tool name="mypy" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+  <tool name="black" description="Auto format with Black" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
     <exec>
-      <option name="COMMAND" value="$USER_HOME$/bin/pycharm-prefix" />
-      <option name="PARAMETERS" value="$PyInterpreterDirectory$/mypy $FilePath$" />
-      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
+      <option name="COMMAND" value="/usr/local/bin/black" />
+      <option name="PARAMETERS" value="$FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
-    <filter>
-      <option name="NAME" value="Prefix" />
-      <option name="DESCRIPTION" />
-      <option name="REGEXP" value="$FILE_PATH$:$LINE$" />
-    </filter>
-  </tool>
-  <tool name="reviewlint" description="Show Github PR comments" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
-    <exec>
-      <option name="COMMAND" value="$PyInterpreterDirectory$/python" />
-      <option name="PARAMETERS" value="$USER_HOME$/wave/scratch/reviewlint.py" />
-      <option name="WORKING_DIRECTORY" value="$ContentRoot$" />
-    </exec>
-    <filter>
-      <option name="NAME" value="Line num" />
-      <option name="DESCRIPTION" />
-      <option name="REGEXP" value="$FILE_PATH$:$LINE$:.*" />
-    </filter>
   </tool>
 </toolSet>
