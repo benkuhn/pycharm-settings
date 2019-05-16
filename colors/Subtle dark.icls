@@ -1,17 +1,15 @@
 <scheme name="Subtle dark" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2018-12-28T16:52:37</property>
+    <property name="created">2018-12-28T16:10:50</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2018.3.1.0.0</property>
-    <property name="modified">2019-05-09T13:37:46</property>
-    <property name="originalScheme">Subtle dark</property>
+    <property name="modified">2018-12-29T00:44:07</property>
+    <property name="originalScheme">Subtle</property>
   </metaInfo>
   <colors>
     <option name="METHOD_SEPARATORS_COLOR" value="" />
   </colors>
   <attributes>
-    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
-    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
         <option name="FONT_TYPE" value="1" />
@@ -63,9 +61,6 @@
     <option name="DEFAULT_NUMBER">
       <value />
     </option>
-    <option name="DEFAULT_PARAMETER">
-      <value />
-    </option>
     <option name="DEFAULT_SEMICOLON">
       <value />
     </option>
@@ -92,40 +87,24 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value />
     </option>
-    <option name="JAVA_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="KOTLIN_ANNOTATION" baseAttributes="ANNOTATION_NAME_ATTRIBUTES" />
-    <option name="KOTLIN_LABEL" baseAttributes="DEFAULT_LABEL" />
-    <option name="KOTLIN_NAMED_ARGUMENT">
-      <value>
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="KOTLIN_TYPE_PARAMETER" baseAttributes="TYPE_PARAMETER_NAME_ATTRIBUTES" />
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="444444" />
       </value>
     </option>
-    <option name="PROPERTIES.INVALID_STRING_ESCAPE">
-      <value>
-        <option name="EFFECT_COLOR" value="ff0000" />
-        <option name="EFFECT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="PROPERTIES.KEY">
-      <value>
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="PROPERTIES.KEY_VALUE_SEPARATOR">
+    <option name="PY.BUILTIN_NAME" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="PY.DECORATOR">
       <value />
     </option>
-    <option name="PROPERTIES.VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
-    <option name="PY.DECORATOR">
+    <option name="PY.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="PY.KEYWORD_ARGUMENT" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="PY.PREDEFINED_USAGE" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
+    <option name="PY.SELF_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
+    <option name="PY.STRING.B">
       <value />
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
@@ -151,7 +130,6 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES" baseAttributes="DEFAULT_PARAMETER" />
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
         <option name="EFFECT_TYPE" value="1" />
@@ -161,21 +139,6 @@
       <value>
         <option name="BACKGROUND" value="444444" />
       </value>
-    </option>
-    <option name="XML_ATTRIBUTE_NAME">
-      <value />
-    </option>
-    <option name="XML_ENTITY_REFERENCE">
-      <value />
-    </option>
-    <option name="XML_PROLOGUE">
-      <value />
-    </option>
-    <option name="XML_TAG">
-      <value />
-    </option>
-    <option name="XML_TAG_NAME">
-      <value />
     </option>
   </attributes>
 </scheme>
