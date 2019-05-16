@@ -1,0 +1,20 @@
+<keymap version="1" name="Emacs copy" parent="Emacs">
+  <action id="EditorNextWord">
+    <keyboard-shortcut first-keystroke="ctrl right" />
+    <keyboard-shortcut first-keystroke="alt f" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="ctrl f" />
+    <keyboard-shortcut first-keystroke="alt right" />
+  </action>
+  <action id="EditorPreviousWord">
+    <keyboard-shortcut first-keystroke="ctrl left" />
+    <keyboard-shortcut first-keystroke="alt b" />
+    <keyboard-shortcut first-keystroke="escape" second-keystroke="ctrl b" />
+    <keyboard-shortcut first-keystroke="alt left" />
+  </action>
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="n" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="p" />
+  </action>
+</keymap>
