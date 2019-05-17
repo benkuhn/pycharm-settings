@@ -2,6 +2,9 @@
   <action id="$Copy">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
+  <action id="$Cut">
+    <keyboard-shortcut first-keystroke="shift delete" />
+  </action>
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="alt slash" />
     <keyboard-shortcut first-keystroke="alt space" />
