@@ -1,11 +1,15 @@
 <scheme name="Subtle dark" version="142" parent_scheme="Darcula">
+  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
     <property name="created">2018-12-28T16:10:50</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2018.3.1.0.0</property>
-    <property name="modified">2019-05-16T17:12:50</property>
+    <property name="modified">2019-05-16T17:56:30</property>
     <property name="originalScheme">Subtle</property>
   </metaInfo>
+  <option name="EDITOR_FONT_SIZE" value="12" />
+  <option name="CONSOLE_FONT_NAME" value="Menlo" />
+  <option name="EDITOR_FONT_NAME" value="Menlo" />
   <colors>
     <option name="METHOD_SEPARATORS_COLOR" value="" />
   </colors>
@@ -62,8 +66,6 @@
     <option name="DEFAULT_NUMBER">
       <value />
     </option>
-    <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
-    <option name="DEFAULT_REASSIGNED_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="DEFAULT_SEMICOLON">
       <value />
     </option>
@@ -175,6 +177,5 @@
     <option name="XML_TAG_NAME">
       <value />
     </option>
-    <option name="YAML_ANCHOR" baseAttributes="DEFAULT_IDENTIFIER" />
   </attributes>
 </scheme>
