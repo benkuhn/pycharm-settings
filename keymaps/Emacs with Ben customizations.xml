@@ -29,6 +29,10 @@
   <action id="EditorCopy">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
+  <action id="EditorDeleteToWordEnd">
+    <keyboard-shortcut first-keystroke="ctrl delete" />
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
   <action id="EditorDeleteToWordStart">
     <keyboard-shortcut first-keystroke="ctrl back_space" />
     <keyboard-shortcut first-keystroke="alt back_space" />
@@ -41,6 +45,7 @@
   <action id="EditorKillRegion">
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl w" />
   </action>
+  <action id="EditorKillToWordEnd" />
   <action id="EditorNextWord">
     <keyboard-shortcut first-keystroke="ctrl right" />
     <keyboard-shortcut first-keystroke="alt f" />
