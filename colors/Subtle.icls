@@ -3,11 +3,13 @@
     <property name="created">2018-05-25T21:35:00</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2018.1.3.0.0</property>
-    <property name="modified">2020-03-31T18:58:48</property>
+    <property name="modified">2020-05-07T11:54:27</property>
     <property name="originalScheme">_@user_Default</property>
   </metaInfo>
   <colors>
     <option name="CARET_ROW_COLOR" value="f2f2f2" />
+    <option name="DOCUMENTATION_COLOR" value="f7f7f7" />
+    <option name="INFORMATION_HINT" value="f7f7f7" />
     <option name="METHOD_SEPARATORS_COLOR" value="" />
   </colors>
   <attributes>
@@ -61523,6 +61525,11 @@
     </option>
     <option name="STATIC_FIELD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_FIELD" />
     <option name="STATIC_FINAL_FIELD_ATTRIBUTES" baseAttributes="STATIC_FIELD_ATTRIBUTES" />
+    <option name="TEXT">
+      <value>
+        <option name="FOREGROUND" value="0" />
+      </value>
+    </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="dddddd" />
