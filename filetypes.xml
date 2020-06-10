@@ -6,6 +6,7 @@
       <mapping ext="cnf" type="PLAIN_TEXT" />
       <removed_mapping pattern=".yarnrc" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".gitmodules" approved="true" type="PLAIN_TEXT" />
+      <mapping pattern="deploy" type="Python" />
       <removed_mapping pattern="fast-black" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="Procfile" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="signups" approved="true" type="PLAIN_TEXT" />
