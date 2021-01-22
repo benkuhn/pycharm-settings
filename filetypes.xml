@@ -5,6 +5,7 @@
       <mapping ext="webp" type="Image" />
       <mapping ext="cnf" type="PLAIN_TEXT" />
       <mapping ext="conf" type="PLAIN_TEXT" />
+      <mapping ext="auth" type="PLAIN_TEXT" />
       <mapping ext="in" type="PLAIN_TEXT" />
       <removed_mapping pattern=".gitmodules" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern=".yarnrc" approved="true" type="PLAIN_TEXT" />
