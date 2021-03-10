@@ -1,7 +1,7 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig host="35.190.216.241" id="b19d4627-0b62-4087-bf1d-87931ed0e873" keyPath="$USER_HOME$/.ssh/google_compute_engine" port="22" nameFormat="DESCRIPTIVE" username="ben" />
+      <sshConfig host="34.78.204.208" id="b19d4627-0b62-4087-bf1d-87931ed0e873" keyPath="$USER_HOME$/.ssh/google_compute_engine" port="22" nameFormat="DESCRIPTIVE" username="ben" />
     </configs>
   </component>
 </application>
